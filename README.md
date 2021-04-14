@@ -51,7 +51,7 @@ Note how similar the decoder is to the actual decoder-type above.
 Also the decoder has the same type as the decoder-type.  
 
 ```rescript
-open Rtype // Opening Rtype gives access to the match function, as well as common decoders
+open RescriptRtype.Rtype // Opening Rtype gives access to the match function, as well as common decoders
 
 let decoder: decoder = {
   greeting: string
