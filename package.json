@@ -1,0 +1,17 @@
+{
+  "name": "rescript-rtype",
+  "version": "1.0.0",
+  "description": "A super simple JSON decoder for Rescript",
+  "keywords": ["rescript", "json", "decode", "decoder"],
+  "scripts": {
+    "re:build": "bsb -make-world -clean-world",
+    "re:start": "bsb -make-world -clean-world -w",
+    "start": "npm run re:start",
+    "example": "node example/App.bs.js"
+  },
+  "author": "attack-monkey",
+  "license": "ISC",
+  "devDependencies": {
+    "bs-platform": "^9.0.2"
+  }
+}

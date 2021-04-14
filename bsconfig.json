@@ -1,0 +1,22 @@
+{
+  "name": "rescript-rtype",
+  "namespace": true,
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "example",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "bs-dependencies": []
+}
