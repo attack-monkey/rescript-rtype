@@ -3,6 +3,25 @@ Rtype
 
 Rtype is a super-simple way of decoding unknown json.
 
+Install
+-------
+
+```bash
+
+npm i rescript-rtype
+
+```
+
+Then add rescript-rtype as a dependency to bsconfig.json:
+
+```
+
+"bs-dependencies": [
+  "rescript-rtype"
+]
+
+```
+
 How it works
 ------------
 

@@ -1,6 +1,6 @@
 {
   "name": "rescript-rtype",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A super simple JSON decoder for Rescript",
   "keywords": ["rescript", "json", "decode", "decoder"],
   "scripts": {
@@ -10,6 +10,9 @@
     "example": "node example/App.bs.js"
   },
   "author": "attack-monkey",
+  "homepage": "https://github.com/attack-monkey/rescript-rtype",
+  "repository": "https://github.com/attack-monkey/rescript-rtype",
+  "bugs": "https://github.com/attack-monkey/rescript-rtype/issues",
   "license": "ISC",
   "devDependencies": {
     "bs-platform": "^9.0.2"
